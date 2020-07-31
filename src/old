@@ -1,0 +1,17 @@
+import React from "react";
+import Homecomp from "./HomeScreen/HomePage";
+import { Route } from "react-router-dom";
+import DetailScreen from "./DetailsScreen/DetailsScreen";
+
+function App() {
+  return (
+    <div>
+      <layout>
+        <Route path="DetailScreen" component={DetailScreen} />
+      </layout>
+      <Homecomp />
+    </div>
+  );
+}
+
+export default App;

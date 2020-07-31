@@ -1,0 +1,30 @@
+.Post {
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 100px;
+    overflow: hidden;
+    background-color: turquoise;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: royalblue;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
+.btnstyle {
+    background-color: yellowgreen;
+}
